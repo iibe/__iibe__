@@ -2,9 +2,10 @@
 
 - :dvd: List of all public repositories [here.][profile-repositories]
 - :cd: Do you like the design of my profile? [Here for you.][profile-readme]
-- :bar_chart: See my [top languages.][profile-langs-statistic]
-- :chart_with_upwards_trend: See my [github stats.][profile-common-statistic]
-- :chart_with_downwards_trend: See my [streak stats.][profile-streak-statistic]
+
+[//]: # '- :bar_chart: See my [top languages.][profile-langs-statistic]'
+[//]: # '- :chart_with_upwards_trend: See my [github stats.][profile-common-statistic]'
+[//]: # '- :chart_with_downwards_trend: See my [streak stats.][profile-streak-statistic]'
 
 ### :toolbox: Tech Stack
 
@@ -18,7 +19,6 @@
 [![Yarn][shield-yarn]][link-yarn]
 [![VS Code][shield-vscode]][link-vscode]
 [![Git][shield-git]][link-git]
-[![Vim][shield-vim]][link-vim]
 
 ### :wrench: Also familiar with
 
@@ -29,6 +29,7 @@
 [![GraphQL][shield-graphql]][link-graphql]
 [![Apollo GraphQL][shield-apollo-graphql]][link-apollo-graphql]
 
+[//]: # '[![Vim][shield-vim]][link-vim]'
 [//]: # '[![Jest][shield-jest]][link-jest]'
 [//]: # '[![Webpack][shield-webpack]][link-webpack]'
 
