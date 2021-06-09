@@ -1,0 +1,28 @@
+# Usefull Markdown Article
+GET https://help.smash.gg/en/articles/1987102-customizing-text-with-markdown
+
+# All shields.io Icons Here
+GET https://simpleicons.org/
+
+# https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
+GET https://img.shields.io/badge/JS-React-blueviolet
+
+# https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
+GET https://img.shields.io/static/v1?label=JS&message=React&color=blueviolet
+
+# https://img.shields.io/endpoint?url=<URL>&styles=<STYLES>
+GET https://img.shields.io/endpoint?url=https://github.com/iibe&logo=github&logoWidth=30
+
+# <URL> response of https://img.shields.io/endpoint?url=<URL> must return JSON object.
+# URL ==> https://gist.githubusercontent.com/<USER>/<GIST-ID>/raw/test.json
+# test.json ==> {"schemaVersion": 1,"label": "The Answer is","message": "42","color": "green"}
+
+# Maximum of available parameters of /badge
+GET https://img.shields.io/badge/Icon%20Text-React%20JS-blue?labelColor=yellow&logo=react&logoColor=red&style=flat-square
+
+# Maximum of available parameters of /static/v1
+GET https://img.shields.io/static/v1?label=Icon%20Text&message=React%20JS&color=blue&labelColor=yellow&logo=react&logoColor=red&style=flat-square
+
+# Parameters Substitution
+GET https://img.shields.io/badge/-React%20JS-blue?labelColor=2b2e33&logo=react&logoColor=red&style=flat-square
+GET https://img.shields.io/badge/-React%20JS-blue?logo=react&logoColor=red&style=flat-square
